@@ -11,8 +11,6 @@
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
                         
-                        <img src="BingLee_Logo.svg" style="height: 85px; margin-bottom: 20px;" class="center-block" />
-
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                             <label for="email" class="col-md-4 control-label">E-Mail Address</label>
 

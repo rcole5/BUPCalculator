@@ -29,7 +29,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="/BingLee_Logo.svg">
+                        <p>Website Name</p>
                     </a>
                 </div>
 
